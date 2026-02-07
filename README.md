@@ -60,15 +60,20 @@ Akt I prowadzi gracza przez:
 
 ### 🚀 Uruchomienie
 
-#### Wymagania
-- Python 3.10 lub nowszy
-- Brak dodatkowych zależności (wyłącznie biblioteki standardowe)
+#### Opcja 1 — Gotowy plik `.exe` (Windows, bez instalacji)
 
-#### Instalacja i start
+1. Pobierz `thalanor_v1_9.exe` z repozytorium
+2. Uruchom — gra startuje od razu, Python nie jest wymagany
+
+> **Uwaga:** Windows Defender może wyświetlić ostrzeżenie przy pierwszym uruchomieniu — to normalne przy nieznanym pliku .exe. Kliknij „Więcej informacji" → „Uruchom mimo to".
+
+#### Opcja 2 — Uruchomienie z kodu źródłowego (Python)
+
+**Wymagania:** Python 3.10+, brak dodatkowych zależności
 
 ```bash
 # Sklonuj repozytorium
-git clone https://github.com/sudomakemeadmin/thalanor_v1.git
+git clone https://github.com/sudomakemeadmin/thalanor.git
 cd thalanor
 
 # Uruchom grę
@@ -81,7 +86,8 @@ python thalanor_v1_9.py
 
 ```
 thalanor/
-├── thalanor_v1_9.py          # Główny plik gry (cały kod)
+├── thalanor_v1_9.py           # Kod źródłowy gry
+├── thalanor_v1_9.exe          # Skompilowana wersja (Windows)
 ├── README.md                  # Ten plik
 ├── thalanor_save_slot1.json   # Slot zapisu 1 (generowany w trakcie gry)
 ├── thalanor_save_slot2.json   # Slot zapisu 2
@@ -160,13 +166,17 @@ Built as a university project for an **Object-Oriented Programming** course.
 
 ### 🚀 Quick Start
 
+**Option 1 — Windows `.exe` (no installation needed):**
+Download `thalanor_v1_9.exe` from the repository and run it.
+
+**Option 2 — From source (Python 3.10+):**
 ```bash
-git clone https://github.com/sudomakemeadmin/thalanor_v1.git
+git clone https://github.com/sudomakemeadmin/thalanor.git
 cd thalanor
 python thalanor_v1_9.py
 ```
 
-**Requirements:** Python 3.10+ · No external dependencies
+No external dependencies required.
 
 > **Note:** The game is written entirely in Polish. An English localization is not currently planned but may be considered in the future.
 
