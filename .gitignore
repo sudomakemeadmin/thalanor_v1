@@ -1,0 +1,28 @@
+# Zapisy gry (generowane w trakcie grania)
+thalanor_save_slot*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Środowisko wirtualne
+venv/
+.env/
+
+# IDE / edytory
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
