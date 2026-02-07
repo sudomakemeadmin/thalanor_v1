@@ -73,7 +73,7 @@ Akt I prowadzi gracza przez:
 
 ```bash
 # Sklonuj repozytorium
-git clone https://github.com/sudomakemeadmin/thalanor.git
+git clone https://github.com/sudomakemeadmin/thalanor_v1.git
 cd thalanor
 
 # Uruchom grę
@@ -171,7 +171,7 @@ Download `thalanor_v1_9.exe` from the repository and run it.
 
 **Option 2 — From source (Python 3.10+):**
 ```bash
-git clone https://github.com/sudomakemeadmin/thalanor.git
+git clone https://github.com/sudomakemeadmin/thalanor_v1.git
 cd thalanor
 python thalanor_v1_9.py
 ```
