@@ -16,6 +16,9 @@ Budzisz się w starej chacie na skraju lasu.
 Twoja przeszłość wydaje się być rozmazana.
 Czujesz tylko ból, zapach dymu i ciszę, która przychodzi po rzezi.
 ```
+https://www.youtube.com/watch?v=QnPn1GyVRFo
+
+https://www.youtube.com/watch?v=n9Xa8hVUACM
 
 </div>
 
